@@ -1,0 +1,2 @@
+/Users/bjhl/Library/Developer/Xcode/DerivedData/XtraceTest-fizokswrfanovwebksoohvlwlujf/Build/Products/Debug-iphonesimulator/XtraceTest.app
+

@@ -1,0 +1,3 @@
+target ‘EqualTest’ do
+        pod ‘Mantle’
+end

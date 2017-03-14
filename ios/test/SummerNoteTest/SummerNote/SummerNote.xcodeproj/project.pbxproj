@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1B7AD81D7FE6BE0026AD62 /* bootstrap.min.css in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7A9C1D7FE6BE0026AD62 /* bootstrap.min.css */; };
+		1F1B7AD91D7FE6BE0026AD62 /* bootstrap.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7A9D1D7FE6BE0026AD62 /* bootstrap.min.js */; };
+		1F1B7ADA1D7FE6BE0026AD62 /* summernote.eot in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7A9F1D7FE6BE0026AD62 /* summernote.eot */; };
+		1F1B7ADB1D7FE6BE0026AD62 /* summernote.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AA01D7FE6BE0026AD62 /* summernote.ttf */; };
+		1F1B7ADC1D7FE6BE0026AD62 /* summernote.woff in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AA11D7FE6BE0026AD62 /* summernote.woff */; };
+		1F1B7ADD1D7FE6BE0026AD62 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AA21D7FE6BE0026AD62 /* jquery.min.js */; };
+		1F1B7ADE1D7FE6BE0026AD62 /* summernote-ar-AR.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AA41D7FE6BE0026AD62 /* summernote-ar-AR.js */; };
+		1F1B7ADF1D7FE6BE0026AD62 /* summernote-bg-BG.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AA51D7FE6BE0026AD62 /* summernote-bg-BG.js */; };
+		1F1B7AE01D7FE6BE0026AD62 /* summernote-ca-ES.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AA61D7FE6BE0026AD62 /* summernote-ca-ES.js */; };
+		1F1B7AE11D7FE6BE0026AD62 /* summernote-cs-CZ.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AA71D7FE6BE0026AD62 /* summernote-cs-CZ.js */; };
+		1F1B7AE21D7FE6BE0026AD62 /* summernote-da-DK.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AA81D7FE6BE0026AD62 /* summernote-da-DK.js */; };
+		1F1B7AE31D7FE6BE0026AD62 /* summernote-de-DE.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AA91D7FE6BE0026AD62 /* summernote-de-DE.js */; };
+		1F1B7AE41D7FE6BE0026AD62 /* summernote-es-ES.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AAA1D7FE6BE0026AD62 /* summernote-es-ES.js */; };
+		1F1B7AE51D7FE6BE0026AD62 /* summernote-es-EU.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AAB1D7FE6BE0026AD62 /* summernote-es-EU.js */; };
+		1F1B7AE61D7FE6BE0026AD62 /* summernote-fa-IR.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AAC1D7FE6BE0026AD62 /* summernote-fa-IR.js */; };
+		1F1B7AE71D7FE6BE0026AD62 /* summernote-fi-FI.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AAD1D7FE6BE0026AD62 /* summernote-fi-FI.js */; };
+		1F1B7AE81D7FE6BE0026AD62 /* summernote-fr-FR.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AAE1D7FE6BE0026AD62 /* summernote-fr-FR.js */; };
+		1F1B7AE91D7FE6BE0026AD62 /* summernote-gl-ES.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AAF1D7FE6BE0026AD62 /* summernote-gl-ES.js */; };
+		1F1B7AEA1D7FE6BE0026AD62 /* summernote-he-IL.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AB01D7FE6BE0026AD62 /* summernote-he-IL.js */; };
+		1F1B7AEB1D7FE6BE0026AD62 /* summernote-hr-HR.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AB11D7FE6BE0026AD62 /* summernote-hr-HR.js */; };
+		1F1B7AEC1D7FE6BE0026AD62 /* summernote-hu-HU.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AB21D7FE6BE0026AD62 /* summernote-hu-HU.js */; };
+		1F1B7AED1D7FE6BE0026AD62 /* summernote-id-ID.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AB31D7FE6BE0026AD62 /* summernote-id-ID.js */; };
+		1F1B7AEE1D7FE6BE0026AD62 /* summernote-it-IT.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AB41D7FE6BE0026AD62 /* summernote-it-IT.js */; };
+		1F1B7AEF1D7FE6BE0026AD62 /* summernote-ja-JP.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AB51D7FE6BE0026AD62 /* summernote-ja-JP.js */; };
+		1F1B7AF01D7FE6BE0026AD62 /* summernote-ko-KR.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AB61D7FE6BE0026AD62 /* summernote-ko-KR.js */; };
+		1F1B7AF11D7FE6BE0026AD62 /* summernote-lt-LT.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AB71D7FE6BE0026AD62 /* summernote-lt-LT.js */; };
+		1F1B7AF21D7FE6BE0026AD62 /* summernote-lt-LV.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AB81D7FE6BE0026AD62 /* summernote-lt-LV.js */; };
+		1F1B7AF31D7FE6BE0026AD62 /* summernote-nb-NO.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AB91D7FE6BE0026AD62 /* summernote-nb-NO.js */; };
+		1F1B7AF41D7FE6BE0026AD62 /* summernote-nl-NL.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7ABA1D7FE6BE0026AD62 /* summernote-nl-NL.js */; };
+		1F1B7AF51D7FE6BE0026AD62 /* summernote-pl-PL.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7ABB1D7FE6BE0026AD62 /* summernote-pl-PL.js */; };
+		1F1B7AF61D7FE6BE0026AD62 /* summernote-pt-BR.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7ABC1D7FE6BE0026AD62 /* summernote-pt-BR.js */; };
+		1F1B7AF71D7FE6BE0026AD62 /* summernote-pt-PT.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7ABD1D7FE6BE0026AD62 /* summernote-pt-PT.js */; };
+		1F1B7AF81D7FE6BE0026AD62 /* summernote-ro-RO.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7ABE1D7FE6BE0026AD62 /* summernote-ro-RO.js */; };
+		1F1B7AF91D7FE6BE0026AD62 /* summernote-ru-RU.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7ABF1D7FE6BE0026AD62 /* summernote-ru-RU.js */; };
+		1F1B7AFA1D7FE6BE0026AD62 /* summernote-sk-SK.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AC01D7FE6BE0026AD62 /* summernote-sk-SK.js */; };
+		1F1B7AFB1D7FE6BE0026AD62 /* summernote-sl-SI.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AC11D7FE6BE0026AD62 /* summernote-sl-SI.js */; };
+		1F1B7AFC1D7FE6BE0026AD62 /* summernote-sr-RS-Latin.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AC21D7FE6BE0026AD62 /* summernote-sr-RS-Latin.js */; };
+		1F1B7AFD1D7FE6BE0026AD62 /* summernote-sr-RS.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AC31D7FE6BE0026AD62 /* summernote-sr-RS.js */; };
+		1F1B7AFE1D7FE6BE0026AD62 /* summernote-sv-SE.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AC41D7FE6BE0026AD62 /* summernote-sv-SE.js */; };
+		1F1B7AFF1D7FE6BE0026AD62 /* summernote-th-TH.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AC51D7FE6BE0026AD62 /* summernote-th-TH.js */; };
+		1F1B7B001D7FE6BE0026AD62 /* summernote-tr-TR.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AC61D7FE6BE0026AD62 /* summernote-tr-TR.js */; };
+		1F1B7B011D7FE6BE0026AD62 /* summernote-uk-UA.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AC71D7FE6BE0026AD62 /* summernote-uk-UA.js */; };
+		1F1B7B021D7FE6BE0026AD62 /* summernote-vi-VN.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AC81D7FE6BE0026AD62 /* summernote-vi-VN.js */; };
+		1F1B7B031D7FE6BE0026AD62 /* summernote-zh-CN.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AC91D7FE6BE0026AD62 /* summernote-zh-CN.js */; };
+		1F1B7B041D7FE6BE0026AD62 /* summernote-zh-TW.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7ACA1D7FE6BE0026AD62 /* summernote-zh-TW.js */; };
+		1F1B7B051D7FE6BE0026AD62 /* summernote-ext-databasic.css in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7ACD1D7FE6BE0026AD62 /* summernote-ext-databasic.css */; };
+		1F1B7B061D7FE6BE0026AD62 /* summernote-ext-databasic.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7ACE1D7FE6BE0026AD62 /* summernote-ext-databasic.js */; };
+		1F1B7B071D7FE6BE0026AD62 /* summernote-ext-hello.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AD01D7FE6BE0026AD62 /* summernote-ext-hello.js */; };
+		1F1B7B081D7FE6BE0026AD62 /* summernote-ext-specialchars.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AD21D7FE6BE0026AD62 /* summernote-ext-specialchars.js */; };
+		1F1B7B091D7FE6BE0026AD62 /* summernote.css in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AD31D7FE6BE0026AD62 /* summernote.css */; };
+		1F1B7B0A1D7FE6BE0026AD62 /* summernote.html in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AD41D7FE6BE0026AD62 /* summernote.html */; };
+		1F1B7B0B1D7FE6BE0026AD62 /* summernote.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AD51D7FE6BE0026AD62 /* summernote.js */; };
+		1F1B7B0C1D7FE6BE0026AD62 /* summernote.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AD61D7FE6BE0026AD62 /* summernote.min.js */; };
+		1F1B7B0D1D7FE6BE0026AD62 /* summernote_no_tooolbar.html in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B7AD71D7FE6BE0026AD62 /* summernote_no_tooolbar.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F1B7A921D7FE6860026AD62 /* SummerNote.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerNote.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1B7A951D7FE6860026AD62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F1B7A9C1D7FE6BE0026AD62 /* bootstrap.min.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = bootstrap.min.css; sourceTree = "<group>"; };
+		1F1B7A9D1D7FE6BE0026AD62 /* bootstrap.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = bootstrap.min.js; sourceTree = "<group>"; };
+		1F1B7A9F1D7FE6BE0026AD62 /* summernote.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = summernote.eot; sourceTree = "<group>"; };
+		1F1B7AA01D7FE6BE0026AD62 /* summernote.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = summernote.ttf; sourceTree = "<group>"; };
+		1F1B7AA11D7FE6BE0026AD62 /* summernote.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = summernote.woff; sourceTree = "<group>"; };
+		1F1B7AA21D7FE6BE0026AD62 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		1F1B7AA41D7FE6BE0026AD62 /* summernote-ar-AR.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-ar-AR.js"; sourceTree = "<group>"; };
+		1F1B7AA51D7FE6BE0026AD62 /* summernote-bg-BG.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-bg-BG.js"; sourceTree = "<group>"; };
+		1F1B7AA61D7FE6BE0026AD62 /* summernote-ca-ES.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-ca-ES.js"; sourceTree = "<group>"; };
+		1F1B7AA71D7FE6BE0026AD62 /* summernote-cs-CZ.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-cs-CZ.js"; sourceTree = "<group>"; };
+		1F1B7AA81D7FE6BE0026AD62 /* summernote-da-DK.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-da-DK.js"; sourceTree = "<group>"; };
+		1F1B7AA91D7FE6BE0026AD62 /* summernote-de-DE.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-de-DE.js"; sourceTree = "<group>"; };
+		1F1B7AAA1D7FE6BE0026AD62 /* summernote-es-ES.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-es-ES.js"; sourceTree = "<group>"; };
+		1F1B7AAB1D7FE6BE0026AD62 /* summernote-es-EU.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-es-EU.js"; sourceTree = "<group>"; };
+		1F1B7AAC1D7FE6BE0026AD62 /* summernote-fa-IR.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-fa-IR.js"; sourceTree = "<group>"; };
+		1F1B7AAD1D7FE6BE0026AD62 /* summernote-fi-FI.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-fi-FI.js"; sourceTree = "<group>"; };
+		1F1B7AAE1D7FE6BE0026AD62 /* summernote-fr-FR.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-fr-FR.js"; sourceTree = "<group>"; };
+		1F1B7AAF1D7FE6BE0026AD62 /* summernote-gl-ES.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-gl-ES.js"; sourceTree = "<group>"; };
+		1F1B7AB01D7FE6BE0026AD62 /* summernote-he-IL.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-he-IL.js"; sourceTree = "<group>"; };
+		1F1B7AB11D7FE6BE0026AD62 /* summernote-hr-HR.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-hr-HR.js"; sourceTree = "<group>"; };
+		1F1B7AB21D7FE6BE0026AD62 /* summernote-hu-HU.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-hu-HU.js"; sourceTree = "<group>"; };
+		1F1B7AB31D7FE6BE0026AD62 /* summernote-id-ID.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-id-ID.js"; sourceTree = "<group>"; };
+		1F1B7AB41D7FE6BE0026AD62 /* summernote-it-IT.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-it-IT.js"; sourceTree = "<group>"; };
+		1F1B7AB51D7FE6BE0026AD62 /* summernote-ja-JP.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-ja-JP.js"; sourceTree = "<group>"; };
+		1F1B7AB61D7FE6BE0026AD62 /* summernote-ko-KR.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-ko-KR.js"; sourceTree = "<group>"; };
+		1F1B7AB71D7FE6BE0026AD62 /* summernote-lt-LT.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-lt-LT.js"; sourceTree = "<group>"; };
+		1F1B7AB81D7FE6BE0026AD62 /* summernote-lt-LV.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-lt-LV.js"; sourceTree = "<group>"; };
+		1F1B7AB91D7FE6BE0026AD62 /* summernote-nb-NO.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-nb-NO.js"; sourceTree = "<group>"; };
+		1F1B7ABA1D7FE6BE0026AD62 /* summernote-nl-NL.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-nl-NL.js"; sourceTree = "<group>"; };
+		1F1B7ABB1D7FE6BE0026AD62 /* summernote-pl-PL.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-pl-PL.js"; sourceTree = "<group>"; };
+		1F1B7ABC1D7FE6BE0026AD62 /* summernote-pt-BR.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-pt-BR.js"; sourceTree = "<group>"; };
+		1F1B7ABD1D7FE6BE0026AD62 /* summernote-pt-PT.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-pt-PT.js"; sourceTree = "<group>"; };
+		1F1B7ABE1D7FE6BE0026AD62 /* summernote-ro-RO.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-ro-RO.js"; sourceTree = "<group>"; };
+		1F1B7ABF1D7FE6BE0026AD62 /* summernote-ru-RU.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-ru-RU.js"; sourceTree = "<group>"; };
+		1F1B7AC01D7FE6BE0026AD62 /* summernote-sk-SK.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-sk-SK.js"; sourceTree = "<group>"; };
+		1F1B7AC11D7FE6BE0026AD62 /* summernote-sl-SI.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-sl-SI.js"; sourceTree = "<group>"; };
+		1F1B7AC21D7FE6BE0026AD62 /* summernote-sr-RS-Latin.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-sr-RS-Latin.js"; sourceTree = "<group>"; };
+		1F1B7AC31D7FE6BE0026AD62 /* summernote-sr-RS.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-sr-RS.js"; sourceTree = "<group>"; };
+		1F1B7AC41D7FE6BE0026AD62 /* summernote-sv-SE.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-sv-SE.js"; sourceTree = "<group>"; };
+		1F1B7AC51D7FE6BE0026AD62 /* summernote-th-TH.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-th-TH.js"; sourceTree = "<group>"; };
+		1F1B7AC61D7FE6BE0026AD62 /* summernote-tr-TR.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-tr-TR.js"; sourceTree = "<group>"; };
+		1F1B7AC71D7FE6BE0026AD62 /* summernote-uk-UA.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-uk-UA.js"; sourceTree = "<group>"; };
+		1F1B7AC81D7FE6BE0026AD62 /* summernote-vi-VN.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-vi-VN.js"; sourceTree = "<group>"; };
+		1F1B7AC91D7FE6BE0026AD62 /* summernote-zh-CN.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-zh-CN.js"; sourceTree = "<group>"; };
+		1F1B7ACA1D7FE6BE0026AD62 /* summernote-zh-TW.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-zh-TW.js"; sourceTree = "<group>"; };
+		1F1B7ACD1D7FE6BE0026AD62 /* summernote-ext-databasic.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = "summernote-ext-databasic.css"; sourceTree = "<group>"; };
+		1F1B7ACE1D7FE6BE0026AD62 /* summernote-ext-databasic.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-ext-databasic.js"; sourceTree = "<group>"; };
+		1F1B7AD01D7FE6BE0026AD62 /* summernote-ext-hello.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-ext-hello.js"; sourceTree = "<group>"; };
+		1F1B7AD21D7FE6BE0026AD62 /* summernote-ext-specialchars.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "summernote-ext-specialchars.js"; sourceTree = "<group>"; };
+		1F1B7AD31D7FE6BE0026AD62 /* summernote.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = summernote.css; sourceTree = "<group>"; };
+		1F1B7AD41D7FE6BE0026AD62 /* summernote.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = summernote.html; sourceTree = "<group>"; };
+		1F1B7AD51D7FE6BE0026AD62 /* summernote.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = summernote.js; sourceTree = "<group>"; };
+		1F1B7AD61D7FE6BE0026AD62 /* summernote.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = summernote.min.js; sourceTree = "<group>"; };
+		1F1B7AD71D7FE6BE0026AD62 /* summernote_no_tooolbar.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = summernote_no_tooolbar.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F1B7A8F1D7FE6860026AD62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F1B7A891D7FE6860026AD62 = {
+			isa = PBXGroup;
+			children = (
+				1F1B7A941D7FE6860026AD62 /* SummerNote */,
+				1F1B7A931D7FE6860026AD62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F1B7A931D7FE6860026AD62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F1B7A921D7FE6860026AD62 /* SummerNote.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F1B7A941D7FE6860026AD62 /* SummerNote */ = {
+			isa = PBXGroup;
+			children = (
+				1F1B7A9B1D7FE6BE0026AD62 /* summernote */,
+				1F1B7A951D7FE6860026AD62 /* Info.plist */,
+			);
+			path = SummerNote;
+			sourceTree = "<group>";
+		};
+		1F1B7A9B1D7FE6BE0026AD62 /* summernote */ = {
+			isa = PBXGroup;
+			children = (
+				1F1B7A9C1D7FE6BE0026AD62 /* bootstrap.min.css */,
+				1F1B7A9D1D7FE6BE0026AD62 /* bootstrap.min.js */,
+				1F1B7A9E1D7FE6BE0026AD62 /* font */,
+				1F1B7AA21D7FE6BE0026AD62 /* jquery.min.js */,
+				1F1B7AA31D7FE6BE0026AD62 /* lang */,
+				1F1B7ACB1D7FE6BE0026AD62 /* plugin */,
+				1F1B7AD31D7FE6BE0026AD62 /* summernote.css */,
+				1F1B7AD41D7FE6BE0026AD62 /* summernote.html */,
+				1F1B7AD51D7FE6BE0026AD62 /* summernote.js */,
+				1F1B7AD61D7FE6BE0026AD62 /* summernote.min.js */,
+				1F1B7AD71D7FE6BE0026AD62 /* summernote_no_tooolbar.html */,
+			);
+			path = summernote;
+			sourceTree = "<group>";
+		};
+		1F1B7A9E1D7FE6BE0026AD62 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				1F1B7A9F1D7FE6BE0026AD62 /* summernote.eot */,
+				1F1B7AA01D7FE6BE0026AD62 /* summernote.ttf */,
+				1F1B7AA11D7FE6BE0026AD62 /* summernote.woff */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		1F1B7AA31D7FE6BE0026AD62 /* lang */ = {
+			isa = PBXGroup;
+			children = (
+				1F1B7AA41D7FE6BE0026AD62 /* summernote-ar-AR.js */,
+				1F1B7AA51D7FE6BE0026AD62 /* summernote-bg-BG.js */,
+				1F1B7AA61D7FE6BE0026AD62 /* summernote-ca-ES.js */,
+				1F1B7AA71D7FE6BE0026AD62 /* summernote-cs-CZ.js */,
+				1F1B7AA81D7FE6BE0026AD62 /* summernote-da-DK.js */,
+				1F1B7AA91D7FE6BE0026AD62 /* summernote-de-DE.js */,
+				1F1B7AAA1D7FE6BE0026AD62 /* summernote-es-ES.js */,
+				1F1B7AAB1D7FE6BE0026AD62 /* summernote-es-EU.js */,
+				1F1B7AAC1D7FE6BE0026AD62 /* summernote-fa-IR.js */,
+				1F1B7AAD1D7FE6BE0026AD62 /* summernote-fi-FI.js */,
+				1F1B7AAE1D7FE6BE0026AD62 /* summernote-fr-FR.js */,
+				1F1B7AAF1D7FE6BE0026AD62 /* summernote-gl-ES.js */,
+				1F1B7AB01D7FE6BE0026AD62 /* summernote-he-IL.js */,
+				1F1B7AB11D7FE6BE0026AD62 /* summernote-hr-HR.js */,
+				1F1B7AB21D7FE6BE0026AD62 /* summernote-hu-HU.js */,
+				1F1B7AB31D7FE6BE0026AD62 /* summernote-id-ID.js */,
+				1F1B7AB41D7FE6BE0026AD62 /* summernote-it-IT.js */,
+				1F1B7AB51D7FE6BE0026AD62 /* summernote-ja-JP.js */,
+				1F1B7AB61D7FE6BE0026AD62 /* summernote-ko-KR.js */,
+				1F1B7AB71D7FE6BE0026AD62 /* summernote-lt-LT.js */,
+				1F1B7AB81D7FE6BE0026AD62 /* summernote-lt-LV.js */,
+				1F1B7AB91D7FE6BE0026AD62 /* summernote-nb-NO.js */,
+				1F1B7ABA1D7FE6BE0026AD62 /* summernote-nl-NL.js */,
+				1F1B7ABB1D7FE6BE0026AD62 /* summernote-pl-PL.js */,
+				1F1B7ABC1D7FE6BE0026AD62 /* summernote-pt-BR.js */,
+				1F1B7ABD1D7FE6BE0026AD62 /* summernote-pt-PT.js */,
+				1F1B7ABE1D7FE6BE0026AD62 /* summernote-ro-RO.js */,
+				1F1B7ABF1D7FE6BE0026AD62 /* summernote-ru-RU.js */,
+				1F1B7AC01D7FE6BE0026AD62 /* summernote-sk-SK.js */,
+				1F1B7AC11D7FE6BE0026AD62 /* summernote-sl-SI.js */,
+				1F1B7AC21D7FE6BE0026AD62 /* summernote-sr-RS-Latin.js */,
+				1F1B7AC31D7FE6BE0026AD62 /* summernote-sr-RS.js */,
+				1F1B7AC41D7FE6BE0026AD62 /* summernote-sv-SE.js */,
+				1F1B7AC51D7FE6BE0026AD62 /* summernote-th-TH.js */,
+				1F1B7AC61D7FE6BE0026AD62 /* summernote-tr-TR.js */,
+				1F1B7AC71D7FE6BE0026AD62 /* summernote-uk-UA.js */,
+				1F1B7AC81D7FE6BE0026AD62 /* summernote-vi-VN.js */,
+				1F1B7AC91D7FE6BE0026AD62 /* summernote-zh-CN.js */,
+				1F1B7ACA1D7FE6BE0026AD62 /* summernote-zh-TW.js */,
+			);
+			path = lang;
+			sourceTree = "<group>";
+		};
+		1F1B7ACB1D7FE6BE0026AD62 /* plugin */ = {
+			isa = PBXGroup;
+			children = (
+				1F1B7ACC1D7FE6BE0026AD62 /* databasic */,
+				1F1B7ACF1D7FE6BE0026AD62 /* hello */,
+				1F1B7AD11D7FE6BE0026AD62 /* specialchars */,
+			);
+			path = plugin;
+			sourceTree = "<group>";
+		};
+		1F1B7ACC1D7FE6BE0026AD62 /* databasic */ = {
+			isa = PBXGroup;
+			children = (
+				1F1B7ACD1D7FE6BE0026AD62 /* summernote-ext-databasic.css */,
+				1F1B7ACE1D7FE6BE0026AD62 /* summernote-ext-databasic.js */,
+			);
+			path = databasic;
+			sourceTree = "<group>";
+		};
+		1F1B7ACF1D7FE6BE0026AD62 /* hello */ = {
+			isa = PBXGroup;
+			children = (
+				1F1B7AD01D7FE6BE0026AD62 /* summernote-ext-hello.js */,
+			);
+			path = hello;
+			sourceTree = "<group>";
+		};
+		1F1B7AD11D7FE6BE0026AD62 /* specialchars */ = {
+			isa = PBXGroup;
+			children = (
+				1F1B7AD21D7FE6BE0026AD62 /* summernote-ext-specialchars.js */,
+			);
+			path = specialchars;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F1B7A911D7FE6860026AD62 /* SummerNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1B7A981D7FE6860026AD62 /* Build configuration list for PBXNativeTarget "SummerNote" */;
+			buildPhases = (
+				1F1B7A8E1D7FE6860026AD62 /* Sources */,
+				1F1B7A8F1D7FE6860026AD62 /* Frameworks */,
+				1F1B7A901D7FE6860026AD62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SummerNote;
+			productName = SummerNote;
+			productReference = 1F1B7A921D7FE6860026AD62 /* SummerNote.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F1B7A8A1D7FE6860026AD62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yongjie_zou;
+				TargetAttributes = {
+					1F1B7A911D7FE6860026AD62 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1F1B7A8D1D7FE6860026AD62 /* Build configuration list for PBXProject "SummerNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F1B7A891D7FE6860026AD62;
+			productRefGroup = 1F1B7A931D7FE6860026AD62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F1B7A911D7FE6860026AD62 /* SummerNote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F1B7A901D7FE6860026AD62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1B7ADA1D7FE6BE0026AD62 /* summernote.eot in Resources */,
+				1F1B7ADF1D7FE6BE0026AD62 /* summernote-bg-BG.js in Resources */,
+				1F1B7AF01D7FE6BE0026AD62 /* summernote-ko-KR.js in Resources */,
+				1F1B7AFC1D7FE6BE0026AD62 /* summernote-sr-RS-Latin.js in Resources */,
+				1F1B7B0A1D7FE6BE0026AD62 /* summernote.html in Resources */,
+				1F1B7AE11D7FE6BE0026AD62 /* summernote-cs-CZ.js in Resources */,
+				1F1B7AF41D7FE6BE0026AD62 /* summernote-nl-NL.js in Resources */,
+				1F1B7B0B1D7FE6BE0026AD62 /* summernote.js in Resources */,
+				1F1B7AED1D7FE6BE0026AD62 /* summernote-id-ID.js in Resources */,
+				1F1B7ADB1D7FE6BE0026AD62 /* summernote.ttf in Resources */,
+				1F1B7AE41D7FE6BE0026AD62 /* summernote-es-ES.js in Resources */,
+				1F1B7B061D7FE6BE0026AD62 /* summernote-ext-databasic.js in Resources */,
+				1F1B7AE71D7FE6BE0026AD62 /* summernote-fi-FI.js in Resources */,
+				1F1B7ADE1D7FE6BE0026AD62 /* summernote-ar-AR.js in Resources */,
+				1F1B7AE31D7FE6BE0026AD62 /* summernote-de-DE.js in Resources */,
+				1F1B7AF61D7FE6BE0026AD62 /* summernote-pt-BR.js in Resources */,
+				1F1B7B081D7FE6BE0026AD62 /* summernote-ext-specialchars.js in Resources */,
+				1F1B7B051D7FE6BE0026AD62 /* summernote-ext-databasic.css in Resources */,
+				1F1B7ADC1D7FE6BE0026AD62 /* summernote.woff in Resources */,
+				1F1B7B071D7FE6BE0026AD62 /* summernote-ext-hello.js in Resources */,
+				1F1B7B091D7FE6BE0026AD62 /* summernote.css in Resources */,
+				1F1B7AE01D7FE6BE0026AD62 /* summernote-ca-ES.js in Resources */,
+				1F1B7B011D7FE6BE0026AD62 /* summernote-uk-UA.js in Resources */,
+				1F1B7AFF1D7FE6BE0026AD62 /* summernote-th-TH.js in Resources */,
+				1F1B7AFD1D7FE6BE0026AD62 /* summernote-sr-RS.js in Resources */,
+				1F1B7AF51D7FE6BE0026AD62 /* summernote-pl-PL.js in Resources */,
+				1F1B7AF71D7FE6BE0026AD62 /* summernote-pt-PT.js in Resources */,
+				1F1B7AD81D7FE6BE0026AD62 /* bootstrap.min.css in Resources */,
+				1F1B7AF11D7FE6BE0026AD62 /* summernote-lt-LT.js in Resources */,
+				1F1B7AFE1D7FE6BE0026AD62 /* summernote-sv-SE.js in Resources */,
+				1F1B7AFB1D7FE6BE0026AD62 /* summernote-sl-SI.js in Resources */,
+				1F1B7AEE1D7FE6BE0026AD62 /* summernote-it-IT.js in Resources */,
+				1F1B7AEB1D7FE6BE0026AD62 /* summernote-hr-HR.js in Resources */,
+				1F1B7B0C1D7FE6BE0026AD62 /* summernote.min.js in Resources */,
+				1F1B7B021D7FE6BE0026AD62 /* summernote-vi-VN.js in Resources */,
+				1F1B7AF81D7FE6BE0026AD62 /* summernote-ro-RO.js in Resources */,
+				1F1B7AF31D7FE6BE0026AD62 /* summernote-nb-NO.js in Resources */,
+				1F1B7AEA1D7FE6BE0026AD62 /* summernote-he-IL.js in Resources */,
+				1F1B7ADD1D7FE6BE0026AD62 /* jquery.min.js in Resources */,
+				1F1B7AF21D7FE6BE0026AD62 /* summernote-lt-LV.js in Resources */,
+				1F1B7AEC1D7FE6BE0026AD62 /* summernote-hu-HU.js in Resources */,
+				1F1B7AE91D7FE6BE0026AD62 /* summernote-gl-ES.js in Resources */,
+				1F1B7B0D1D7FE6BE0026AD62 /* summernote_no_tooolbar.html in Resources */,
+				1F1B7B031D7FE6BE0026AD62 /* summernote-zh-CN.js in Resources */,
+				1F1B7B001D7FE6BE0026AD62 /* summernote-tr-TR.js in Resources */,
+				1F1B7AE51D7FE6BE0026AD62 /* summernote-es-EU.js in Resources */,
+				1F1B7AFA1D7FE6BE0026AD62 /* summernote-sk-SK.js in Resources */,
+				1F1B7AE61D7FE6BE0026AD62 /* summernote-fa-IR.js in Resources */,
+				1F1B7AEF1D7FE6BE0026AD62 /* summernote-ja-JP.js in Resources */,
+				1F1B7AE21D7FE6BE0026AD62 /* summernote-da-DK.js in Resources */,
+				1F1B7AF91D7FE6BE0026AD62 /* summernote-ru-RU.js in Resources */,
+				1F1B7AE81D7FE6BE0026AD62 /* summernote-fr-FR.js in Resources */,
+				1F1B7AD91D7FE6BE0026AD62 /* bootstrap.min.js in Resources */,
+				1F1B7B041D7FE6BE0026AD62 /* summernote-zh-TW.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F1B7A8E1D7FE6860026AD62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F1B7A961D7FE6860026AD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1F1B7A971D7FE6860026AD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F1B7A991D7FE6860026AD62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SummerNote/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = zouyongjie.SummerNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1F1B7A9A1D7FE6860026AD62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SummerNote/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_BUNDLE_IDENTIFIER = zouyongjie.SummerNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F1B7A8D1D7FE6860026AD62 /* Build configuration list for PBXProject "SummerNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1B7A961D7FE6860026AD62 /* Debug */,
+				1F1B7A971D7FE6860026AD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1B7A981D7FE6860026AD62 /* Build configuration list for PBXNativeTarget "SummerNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1B7A991D7FE6860026AD62 /* Debug */,
+				1F1B7A9A1D7FE6860026AD62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F1B7A8A1D7FE6860026AD62 /* Project object */;
+}

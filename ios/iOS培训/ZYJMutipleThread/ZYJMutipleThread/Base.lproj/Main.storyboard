@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4UF-GI-Zrb">
+                                <rect key="frame" x="256" y="119" width="89" height="30"/>
+                                <state key="normal" title="NSOperation"/>
+                                <connections>
+                                    <action selector="tapNSOperation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zH2-3d-bhY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbn-r0-BVE">
+                                <rect key="frame" x="520" y="119" width="60" height="30"/>
+                                <state key="normal" title="NSTread"/>
+                                <connections>
+                                    <action selector="tapNSTread:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3cV-1X-t7d"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fAD-FQ-gSU">
+                                <rect key="frame" x="200.5" y="199" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="gwR-nj-FAu"/>
+                                    <constraint firstAttribute="height" constant="200" id="qxD-Yp-Fmf"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X68-uX-YyL">
+                                <rect key="frame" x="275" y="79" width="50" height="30"/>
+                                <state key="normal" title="Normal"/>
+                                <connections>
+                                    <action selector="tapNormal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Mj-U3-Ebi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7f-tV-t0V">
+                                <rect key="frame" x="20" y="119" width="33" height="30"/>
+                                <state key="normal" title="GCD"/>
+                                <connections>
+                                    <action selector="tapGCD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r7Z-10-lLA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="4UF-GI-Zrb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="99" id="1kE-6z-qhz"/>
+                            <constraint firstItem="cbn-r0-BVE" firstAttribute="centerY" secondItem="P7f-tV-t0V" secondAttribute="centerY" id="2E2-OQ-AN8"/>
+                            <constraint firstItem="fAD-FQ-gSU" firstAttribute="top" secondItem="4UF-GI-Zrb" secondAttribute="bottom" constant="50" id="FHl-t1-UMl"/>
+                            <constraint firstItem="4UF-GI-Zrb" firstAttribute="top" secondItem="X68-uX-YyL" secondAttribute="bottom" constant="10" id="KUZ-fe-P10"/>
+                            <constraint firstItem="P7f-tV-t0V" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="R8Q-9f-HLA"/>
+                            <constraint firstItem="4UF-GI-Zrb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rdw-jj-s1l"/>
+                            <constraint firstItem="4UF-GI-Zrb" firstAttribute="centerY" secondItem="P7f-tV-t0V" secondAttribute="centerY" id="SEf-cx-If0"/>
+                            <constraint firstAttribute="trailing" secondItem="cbn-r0-BVE" secondAttribute="trailing" constant="20" id="WNO-92-cdZ"/>
+                            <constraint firstItem="X68-uX-YyL" firstAttribute="centerX" secondItem="4UF-GI-Zrb" secondAttribute="centerX" id="ae8-dX-TEI"/>
+                            <constraint firstItem="fAD-FQ-gSU" firstAttribute="centerX" secondItem="4UF-GI-Zrb" secondAttribute="centerX" id="ydt-qB-zla"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="fAD-FQ-gSU" id="Vgg-9w-EvM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

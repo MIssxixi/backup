@@ -1,0 +1,2 @@
+/Users/bjhl/Library/Developer/Xcode/DerivedData/AttributedStringTest-bxvulyeyfkvcrldvncksfjztvuca/Build/Products/Debug-iphonesimulator/AttributedStringTest.app
+

@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/wax" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BCUserTrack" "${PODS_ROOT}/Headers/Public/UTDID" "${PODS_ROOT}/Headers/Public/ZipArchive" "${PODS_ROOT}/Headers/Public/wax" ${SDK_DIR}/usr/include/libxml2
+OTHER_LDFLAGS = -l"sqlite3" -l"xml2"
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES
