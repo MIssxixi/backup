@@ -1,6 +1,7 @@
 {
     "all": {},
     "2.5.4": {
-        "UseOldLiveVersion": true
+        "UseOldLiveVersion": true,
+        "UseOldLiveBackVersion": true
     }
 }
