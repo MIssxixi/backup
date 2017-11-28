@@ -2,6 +2,10 @@
     "all": {},
     "2.5.4": {
         "UseOldLiveVersion": true,
-        "UseOldLiveBackVersion": true
+        "UseOldLiveBackVersion": true,
+"UseOldLiveVersionV1": {
+    "MinSystemVersionKey" : 8,
+    "MaxSystemVersionKey" : 10
+}
     }
 }
