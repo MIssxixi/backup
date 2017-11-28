@@ -7,9 +7,6 @@
     "MinSystemVersionKey" : 8,
     "MaxSystemVersionKey" : 11
 },
-        "UseOldLiveBackVersionV1": {
-    "MinSystemVersionKey" : 8,
-    "MaxSystemVersionKey" : 9
-}
+      
     }
 }
