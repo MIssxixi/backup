@@ -6,6 +6,10 @@
 "UseOldLiveVersionV1": {
     "MinSystemVersionKey" : 8,
     "MaxSystemVersionKey" : 10
+},
+        "UseOldLiveBackVersionV1": {
+    "MinSystemVersionKey" : 8,
+    "MaxSystemVersionKey" : 10
 }
     }
 }
