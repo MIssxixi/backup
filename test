@@ -13,7 +13,7 @@
         },
         "CannotJumpToHiChatPlayback":{
             "MinSystemVersionKey" : 8,
-            "MaxSystemVersionKey" : 10
+            "MaxSystemVersionKey" : 12
         }
     }
 }
