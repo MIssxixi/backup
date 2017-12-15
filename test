@@ -7,6 +7,9 @@
     "MinSystemVersionKey" : 8,
     "MaxSystemVersionKey" : 11
 },
-      
+      "CannotJumpToHiChatLive":{
+            "MinSystemVersionKey" : 8,
+            "MaxSystemVersionKey" : 12
+        }
     }
 }
