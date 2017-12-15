@@ -11,5 +11,9 @@
             "MinSystemVersionKey" : 8,
             "MaxSystemVersionKey" : 10
         }
+        "CannotJumpToHiChatPlayback":{
+            "MinSystemVersionKey" : 8,
+            "MaxSystemVersionKey" : 10
+        }
     }
 }
